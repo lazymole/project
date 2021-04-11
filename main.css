@@ -1,0 +1,12 @@
+h1 {
+  color: #1d81d3;
+}
+a:link,
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #1d81d3;
+}
