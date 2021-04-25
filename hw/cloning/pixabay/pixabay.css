@@ -70,7 +70,6 @@ div.upload a {
   margin: 0;
   text-align: center;
   line-height: 35px;
-  vertical-align: center;
 }
 .responsive_menu a {
   display: block;
@@ -104,7 +103,8 @@ h2 {
 #search_form {
   width: 800px;
   height: 89px;
-  padding-left, padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 5px auto 100px;
 }
 .search_box {
@@ -113,8 +113,6 @@ h2 {
   border-radius: 5px;
   background-color: white;
   border: none;
-}
-.search_icon {
 }
 input.submit {
   padding: 1px 6px;
