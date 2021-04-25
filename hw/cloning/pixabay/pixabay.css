@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  color: #191b26;
+  min-width: 320px;
+}
+div.header {
+  height: 60px;
+  display: grid;
+  word-break: keep-all;
+  grid-template-columns: 100px 360px 1fr 106.64px 60px 60px 152.64px;
+}
+div.header a:link, a:visited {
+  color: #191b26;
+  text-decoration: none;
+}
+div.header a:hover {
+  opacity: .85;
+}
+#logo {
+  width: 100px;
+  height: 24px;
+  margin-right: 40px;
+  padding: 19px 15px;
+}
+#logo a {
+  text-decoration: none;
+}
+#main {
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0 0 20px;
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/index/2021/04/23/08-05-25-578_1920x430.jpg");
+  background-blend-mode: overlay;
+  background-color: #555;
+}
+#top_menu {
+  height: 60px;
+  display: flex;
+}
+#top_menu a, .lookaround, .join {
+  display: block;
+  padding: 19px 15px;
+}
+.login {
+  border-right: 1px solid #b9bbbd;
+  padding: 5px 0px;
+  margin: 14px 0;
+}
+div.login a {
+  padding-right: 15px;
+}
+.upload {
+  display: block;
+  padding: 12px 15px;
+}
+div.upload a {
+  display: block;
+  color: white;
+  border-radius: 20px;
+  background-color: #02be6e;
+  width: 117.64px;
+  height: 35px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  line-height: 35px;
+  vertical-align: center;
+}
+.responsive_menu a {
+  display: block;
+  padding: 19px 15px;
+}
+
+.top {
+  padding: 20px 20px 5px;
+}
+h1 {
+  display: block;
+  width: 800px;
+  height: 48px;
+  padding: 130px 0 0 0;
+  margin: 0 auto;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+h2 {
+  display: block;
+  width: 800px;
+  height: 24px;
+  padding: 15px 0 28px;
+  margin: 0 auto;
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+#search_form {
+  width: 800px;
+  height: 89px;
+  padding-left, padding-right: 20px;
+  margin: 5px auto 100px;
+}
+.search_box {
+  width: 798px;
+  height: 58px;
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+}
+.search_icon {
+}
+input.submit {
+  padding: 1px 6px;
+}
+input.searcher {
+  padding: 18px 0px;
+  width: 638px;
+  height: 22px;
+  border: none;
+  font-size: 15px;
+  opacity: .5;
+}
+input.searcher:focus {
+  outline: none;
+}
+.popular {
+  width: 780px;
+  height: 19px;
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  opacity: .5;
+}
+.popular a:link, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.bottom {
+  height: 19px;
+  padding: 30px 25px 15px;
+  text-align: center;
+}
+.bottom a {
+  color: white;
+  text-decoration: none;
+}
+.bottom a:link,a:visited {
+  opacity: .8;
+}
+.bottom a:hover {
+  opacity: 1;
+}
+@media(max-width:1440px) {
+  #main {
+    background-image: url("https://cdn.pixabay.com/photo/2020/07/19/14/15/sky-5420151_640.jpg");
+  }
+}
+@media(max-width:1180px) {
+  #top_menu {
+    display: none;
+  }
+  div.header {
+    grid-template-columns: 100px 1fr 106.64px 60px 60px 152.64px;
+  }
+}
+@media(max-width:1024px) {
+  .lookaround {
+    display: none;
+  }
+  div.header {
+    grid-template-columns: 100px 1fr 60px 60px 152.64px 60px;
+  }
+  .responsive_menu {
+    display: block;
+  }
+  h1, h2 {
+    width: 600px;
+  }
+  #search_form, div.search_box {
+    width: 600px;
+  }
+  input.searcher {
+    width: 438px;
+  }
+  div.popular {
+    width: 589px;
+  }
+}
+@media(max-width:800px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+@media(max-width:768px) {
+  .upload {
+    display: none;
+  }
+  div.header {
+    grid-template-columns: 100px 1fr 60px 60px 60px;
+  }
+}
+@media(max-width:568px) {
+  .login, .join {
+    display: none;
+  }
+  div.header {
+    grid-template-columns: 100px 1fr 60px;
+  }
+}
