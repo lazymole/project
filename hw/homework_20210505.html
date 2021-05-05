@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript를 이용한 야간 모드 만들기</title>
+</head>
+<body>
+  <h1>WEB</h1>
+  <input type="button" value="night" onclick="
+    var target = document.querySelector('body')
+    if (this.value === 'night') {
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = 'day';
+    } else {
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = 'night';
+    }
+  "/>
+  <p>JavaScript를 이용한 야간/주간 모드 변경하기 예시입니다.</p>
+  <p>조건문을 통해 버튼을 하나로 통합하고, 리팩토링을 통해 코드를 간결화하였습니다.</p>
+</body>
+</html>
