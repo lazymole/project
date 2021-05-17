@@ -1,0 +1,138 @@
+/* COMMON */
+body {
+  font-family: Ariel, sans-serif;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+
+
+header .top {
+  font-family: 'Do Hyeon', sans-serif;
+  width: 100%;
+  height: 1050px;
+  background: linear-gradient(#FEF1A6, #15AF8E);
+  margin: 0 auto;
+  overflow: hidden;
+}
+header .top .topbox {
+  width: 690px;
+  height: 633px;
+  border: 4px solid #fff;
+  position: relative;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+header .top .topbox .topbox__text {
+  text-align: center;
+}
+header .top .topbox .topbox__text h2 {
+  display: block;
+  font-size: 2.5em;
+  color: #222;
+  padding: 1.6em 0 .3em;
+}
+header .top .topbox .topbox__text h1 {
+  font-size: 5em;
+  color: #12AE8D;
+}
+header .top .topbox .topbox__img {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url('../image/dooly_top.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 400px;
+  background-position: center;
+  cursor: pointer;
+}
+
+header .top .topbox .topbox__zoomin .material-icons {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255,255,255,.7);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  right: 20%;
+  font-size: 40px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+header .top .gift  {
+  font-size: 35px;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+header .top .gift .gifttext {
+  color: #222;
+  padding-bottom: 20px;
+}
+header .top .gift .giftbutton {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px 10px 30px;
+  color: #fff;
+  background-color: #222;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+header .top .giftdetail {
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", 돋움, sans-serif;
+  font-size: 13px;
+  color: #fff;
+  line-height: 20px;
+  position: relative;
+  top: 150px;
+  left: 32%;
+}
+
+header .section {
+  font-family: 'Do Hyeon', sans-serif;
+  height: 80px;
+  background-color: #222;
+}
+header .section ul {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30%;
+}
+header .section ul li {
+  display: block;
+  font-size: 40px;
+  color: #fff;
+  position: relative;
+}
+
+header .section ul li::before {
+  content: '';
+  width: 1px;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+header .section ul li:first-child::before {
+  display: none;
+}
+header .section ul li a {
+  color: #fff;
+  padding: 0 30px;
+}
+header .section ul li a:visited {
+  color: #fff;
+}
