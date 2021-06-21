@@ -1,0 +1,99 @@
+/* 공통적으로 적용되는 부분 */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+/* 개별적으로 적용되는 부분 */
+
+#login-form input {
+  width: 100%;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+}
+#login-form input:focus {
+  outline: none;
+  caret-color: #fff;
+}
+#login-form input::placeholder {
+  color: rgba(255,255,255,.7);
+}
+
+#clock {
+  font-weight: 700;
+  font-size: 9em;
+  margin: 100px 0px 50px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#greeting {
+  font-size: 3em;
+  margin: 0 30px;
+  width: 100%;
+  text-align: center;
+}
+
+#todo-form {
+  margin: 20px 0;
+}
+
+#todo-form input {
+  font-size: 1.8em;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+}
+#todo-form input::placeholder {
+  color: rgba(255,255,255,.7);
+}
+#todo-list {
+  width: 100%;
+  margin: 20px 0;
+}
+#todo-list li {
+  font-size: 1.4em;
+}
+#todo-list li button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#quote {
+  width: 100%;
+  font-size: 1.2em;
+}
+
+#quote span {
+  display: block;
+  width: 100%;
+}
+
+#weather {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
