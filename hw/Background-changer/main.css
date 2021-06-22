@@ -1,0 +1,23 @@
+body {
+  background-color: #ffffff;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-container {
+  text-align: center;
+  margin-top: 40vh;
+}
+
+#clickbtn {
+  display: block;
+  margin: 10px auto;
+  font-size: 30px;
+  color: #ffffff;
+  width: 200px;
+  height: 80px;
+  background-color: #6C757D;
+  border: 5px solid rgba(255,255,255,.2);
+  border-radius: 10px;
+  cursor: pointer;
+}
