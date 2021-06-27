@@ -1,0 +1,65 @@
+/* Default */
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+/* Custom */
+.image-box {
+  margin: 0 auto;
+  text-align: center;
+}
+.carousel-top .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* arrow common */
+.carousel-top .img-container #left-arrow,
+.carousel-top .img-container #right-arrow {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* arrow span common */
+.carousel-top .img-container #left-arrow > span,
+.carousel-top .img-container #right-arrow > span {
+  line-height: 30px;
+  padding-left: 3px;
+}
+.carousel-top .img-container .images {
+  width: 600px;
+  height: 600px;
+  background-color: #fff;
+  /* position: relative; */
+}
+.carousel-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.carousel-bottom .dots {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.5);
+  margin: 5px;
+  font-size: 0;
+}
+.carousel-bottom .dots:hover {
+  background-color: #fff;
+  transition: .2s;
+}
